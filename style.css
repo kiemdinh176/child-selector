@@ -1,0 +1,28 @@
+/* chon st dau tien */
+p:first-child {
+  color: deepskyblue;
+  filter: drop-shadow(5px 5px 5px red);
+}
+/* chon st cuoi cung */
+p:last-child {
+  color: greenyellow;
+}
+/* chon st thu n */
+p:nth-child(4) {
+  color: deeppink;
+}
+/*p:nth-child(even) chon cac the o giua tu tren xuong */
+/* nth-child(3n+1) */
+/* n=0 => 1 */
+/* n=1 => 4 */
+/* n=2 => 7 */
+
+/* chon duy nhat 1 the */
+h1:only-child {
+  color: blueviolet;
+}
+/* on luon kien thuc hover */
+
+p:hover {
+  color: goldenrod;
+}
